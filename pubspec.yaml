@@ -9,16 +9,24 @@ environment:
   sdk: ">=2.19.6 <3.0.0"
 
 dependencies:
+  cupertino_icons: ^1.0.2
+  dartz: ^0.10.1
+  equatable: ^2.0.5
   flutter:
     sdk: flutter
-
-  cupertino_icons: ^1.0.2
+  flutter_bloc: ^8.1.4
+  get_it: ^7.6.0
+  http: ^0.13.6
+  rxdart: ^0.27.7
 
 dev_dependencies:
+  bloc_test: ^9.1.6
+  build_runner: any
+  flutter_lints: ^2.0.0
   flutter_test:
     sdk: flutter
-
-  flutter_lints: ^2.0.0
+  mockito: any
+  mocktail: any
 
 flutter:
   uses-material-design: true
